@@ -1,0 +1,40 @@
+{
+  "name": "solysai-ev-sentiment",
+  "version": "1.0.0",
+  "description": "AI-powered sentiment analysis platform for Indian Electric Vehicle brands",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run backend:dev\" \"npm run frontend:dev\"",
+    "backend:dev": "cd backend && python main.py",
+    "frontend:dev": "cd frontend && npm run dev",
+    "build": "npm run backend:build && npm run frontend:build",
+    "backend:build": "cd backend && pip install -r requirements.txt",
+    "frontend:build": "cd frontend && npm run build",
+    "start": "concurrently \"npm run backend:start\" \"npm run frontend:start\"",
+    "backend:start": "cd backend && uvicorn main:app --host 0.0.0.0 --port 8000",
+    "frontend:start": "cd frontend && npm start",
+    "install:all": "npm install && cd backend && pip install -r requirements.txt && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "sentiment-analysis",
+    "electric-vehicles",
+    "ai",
+    "nextjs",
+    "fastapi",
+    "gemini-ai",
+    "mongodb"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/solysai-ev-sentiment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/solysai-ev-sentiment/issues"
+  },
+  "homepage": "https://github.com/yourusername/solysai-ev-sentiment#readme"
+}

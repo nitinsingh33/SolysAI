@@ -1,0 +1,158 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+.next/
+/out/
+
+# Production build
+/build
+/dist
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# User directories and OneDrive sync issues - IGNORE EVERYTHING OUTSIDE PROJECT
+../../../*
+../../../../*
+../../*
+OneDrive*/
+Application Data/
+Cookies/
+Documents/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+AppData/
+Contacts/
+Desktop/
+Downloads/
+Dropbox/
+Favorites/
+Links/
+Microsoft/
+Music/
+NTUSER.DAT*
+Saved Games/
+Searches/
+Videos/
+.anaconda/
+.bash_history
+.cache/
+.chocolatey/
+.conda/
+.condarc
+.continuum/
+.crossnote/
+.cursor/
+.docker/
+.git-for-windows-updater
+.gitconfig
+.idlerc/
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.lesshst
+.n8n/
+.node_repl_history
+.qodo/
+.railway/
+.streamlit/
+Full-stack-real-estate/
+Gymkhana-IITP/
+get-pip.py
+hero-vida-rag-app/
+n8n-setup/
+npm-cache/
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+self-hosted-ai-starter-kit/
+*.lnk
+*.docx
+*.mp4
+*.jpg
+*.url
+desktop.ini
+
+# Project specific temp files
+temp/
+tmp/
+*.backup
+*_backup.*
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Database
+*.db
+*.sqlite
+
+# Temporary files
+*.tmp
+*.temp
